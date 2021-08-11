@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>myblog1</title>
-    <url>/2021/08/11/myblog/</url>
-    <content><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p><a href="http://www.runoob.com/">runoob</a></p>
-<span id="more"></span>
-<p>内容</p>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容1</p>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="http://www.xxx.com/">www.xxx.com</a></p>
+    <title>开发中常用的网站</title>
+    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a>前端开发</h2><table>
+<thead>
+<tr>
+<th align="left"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
+<th align="left"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
+<th align="left"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
+<td align="left"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
+<td align="left"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
+</tr>
+</tbody></table>
+<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a>后端开发</h2><table>
+<thead>
+<tr>
+<th align="left"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
+<th align="left"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
+<th align="left"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
+<td align="left"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
+<td align="left"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
+</tr>
+</tbody></table>
 ]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
       <tags>
-        <tag>导航</tag>
-        <tag>分享</tag>
+        <tag>常用网站</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>my blog</title>
-    <url>/2021/08/10/HTML/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
