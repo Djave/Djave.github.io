@@ -3,7 +3,7 @@
   <entry>
     <title>HTML中你需要知道的是</title>
     <url>/2021/08/12/HTML/</url>
-    <content><![CDATA[<h2 id="1-HTML-中常用的标签"><a href="#1-HTML-中常用的标签" class="headerlink" title="1. HTML 中常用的标签"></a>1. HTML 中常用的标签</h2><span id="more"></span>
+    <content><![CDATA[<h2 id="HTML-中常用的标签"><a href="#HTML-中常用的标签" class="headerlink" title="HTML 中常用的标签"></a><font color=orange>HTML 中常用的标签</font></h2><span id="more"></span>
 <ol>
 <li>布局： div 分天下</li>
 <li>文本类： h1~h6, p, span, strong, em, b, br</li>
@@ -13,10 +13,10 @@
 <li>列表：ul, li, dl, dd, dt, ol</li>
 <li>其他：a, img, meta, link, script, code, pre</li>
 </ol>
-<h2 id="2-HTML5-新增的布局语义化标签"><a href="#2-HTML5-新增的布局语义化标签" class="headerlink" title="2. HTML5 新增的布局语义化标签"></a>2. HTML5 新增的布局语义化标签</h2><ul>
+<h2 id="HTML5-新增的布局语义化标签"><a href="#HTML5-新增的布局语义化标签" class="headerlink" title="HTML5 新增的布局语义化标签"></a><font color=orange>HTML5 新增的布局语义化标签</font></h2><ul>
 <li>article aside footer header nav section</li>
 </ul>
-<h2 id="3-HTML中常用的实体"><a href="#3-HTML中常用的实体" class="headerlink" title="3. HTML中常用的实体"></a>3. HTML中常用的实体</h2><table>
+<h2 id="HTML中常用的实体"><a href="#HTML中常用的实体" class="headerlink" title="HTML中常用的实体"></a><font color=orange>HTML中常用的实体</font></h2><table>
 <thead>
 <tr>
 <th align="center">代码</th>
@@ -50,10 +50,10 @@
 <td align="center">¤</td>
 </tr>
 </tbody></table>
-<h2 id="4-标签使用中的注意点"><a href="#4-标签使用中的注意点" class="headerlink" title="4. 标签使用中的注意点"></a>4. 标签使用中的注意点</h2><blockquote>
+<h2 id="标签使用中的注意点"><a href="#标签使用中的注意点" class="headerlink" title="标签使用中的注意点"></a><font color=orange>标签使用中的注意点</font></h2><blockquote>
 <p>字体标签在SEO中的权重：标签 h1&gt;h2&gt;h3&gt;h4&gt;h5&gt;h6 加重语气的标签 strong &gt; b em &gt; i<br>SEO：是指在了解搜索引擎自然排名机制的基础上，对网站进行内部及外部的调整优化，改进网站在搜索引擎中的关键词自然排名，获得更多流量， 从而达成网站销售及品牌建设的目标。</p>
 </blockquote>
-<h2 id="5-常用标签的相关属性"><a href="#5-常用标签的相关属性" class="headerlink" title="5. 常用标签的相关属性"></a>5. 常用标签的相关属性</h2><h3 id="5-1-链接标签（a标签）"><a href="#5-1-链接标签（a标签）" class="headerlink" title="5.1. 链接标签（a标签）"></a>5.1. 链接标签（a标签）</h3><blockquote>
+<h2 id="常用标签的相关属性"><a href="#常用标签的相关属性" class="headerlink" title="常用标签的相关属性"></a><font color=orange>常用标签的相关属性</font></h2><h3 id="链接标签（a标签）"><a href="#链接标签（a标签）" class="headerlink" title="链接标签（a标签）"></a><font color=skyblue>链接标签（a标签）</font></h3><blockquote>
 <p>链接是指从一个页面指向到另一个目标体，目标体可以是一个图片，也可以是一个网页，也可以是一个文件等，超链接是网络的灵魂，使用的HTML标记是<a>标记。</p>
 </blockquote>
 ]]></content>
@@ -67,7 +67,7 @@
   <entry>
     <title>开发中常用的网站</title>
     <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a>前端开发</h2><span id="more"></span>
+    <content><![CDATA[<h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
 
 <table>
 <thead>
@@ -123,7 +123,7 @@
 <td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
 </tr>
 </tbody></table>
-<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a>后端开发</h2><table>
+<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
 <thead>
 <tr>
 <th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
