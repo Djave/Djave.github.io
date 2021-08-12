@@ -16,6 +16,31 @@
 <td align="left"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
 <td align="left"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
 </tr>
+<tr>
+<td align="left"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
+<td align="left"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
+<td align="left"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="left"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
+<td align="left"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
+<td align="left"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="left"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
+<td align="left"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
+<td align="left"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
+</tr>
+<tr>
+<td align="left"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
+<td align="left"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
+<td align="left"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
+</tr>
+<tr>
+<td align="left"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
+<td align="left"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
+<td align="left"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
+</tr>
 </tbody></table>
 <h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a>后端开发</h2><table>
 <thead>
@@ -27,6 +52,11 @@
 </thead>
 <tbody><tr>
 <td align="left"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
+<td align="left"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
+<td align="left"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
+</tr>
+<tr>
+<td align="left"><em><strong><a href="http://www.mongoosejs.net/">mongoosejs中文网</a></strong></em></td>
 <td align="left"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
 <td align="left"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
 </tr>
