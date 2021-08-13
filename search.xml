@@ -3,7 +3,7 @@
   <entry>
     <title>HTML中你需要知道的是</title>
     <url>/2021/08/12/HTML/</url>
-    <content><![CDATA[<h2 id="HTML-中常用的标签"><a href="#HTML-中常用的标签" class="headerlink" title="HTML 中常用的标签"></a><font color=orange>HTML 中常用的标签</font></h2><span id="more"></span>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="HTML-中常用的标签"><a href="#HTML-中常用的标签" class="headerlink" title="HTML 中常用的标签"></a><font color=orange>HTML 中常用的标签</font></h2><span id="more"></span>
 <ol>
 <li>布局： div 分天下</li>
 <li>文本类： h1~h6, p, span, strong, em, b, br</li>
@@ -67,7 +67,7 @@
   <entry>
     <title>开发中常用的网站</title>
     <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
 
 <table>
 <thead>
