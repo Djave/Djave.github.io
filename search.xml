@@ -151,7 +151,7 @@
 </ul>
 </li>
 <li>Windows上复制一个文件到Linux服务器<ul>
-<li>scp -r 本地需要上传的文件路径 <a href="mailto:&#x72;&#111;&#111;&#116;&#64;&#49;&#x39;&#x32;&#x2e;&#49;&#x36;&#x38;&#46;&#49;&#48;&#48;&#x2e;&#x38;&#48;">&#x72;&#111;&#111;&#116;&#64;&#49;&#x39;&#x32;&#x2e;&#49;&#x36;&#x38;&#46;&#49;&#48;&#48;&#x2e;&#x38;&#48;</a>:/opt</li>
+<li>scp -r 本地需要上传的文件路径 <a href="mailto:&#x72;&#x6f;&#x6f;&#116;&#x40;&#x31;&#x39;&#x32;&#46;&#49;&#x36;&#56;&#46;&#x31;&#x30;&#48;&#x2e;&#x38;&#48;">&#x72;&#x6f;&#x6f;&#116;&#x40;&#x31;&#x39;&#x32;&#46;&#49;&#x36;&#56;&#46;&#x31;&#x30;&#48;&#x2e;&#x38;&#48;</a>:/opt</li>
 </ul>
 </li>
 <li>配置环境变量 vim /etc/profile<ul>
@@ -160,50 +160,6 @@
 </ul>
 </li>
 </ul>
-<div class="btn-center">
-<a class="btn-beautify button--animated outline larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated outline blue larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated outline pink larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated outline red larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated outline purple larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated outline orange larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated outline green larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-</div>
-
-<p>This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
-  title="Butterfly"><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
-  title="Butterfly"><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a><br>This is my website, click the button <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a></p>
-<a class="btn-beautify button--animated block" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated block center larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated block right outline larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-
-<a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated blue larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated pink larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated red larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated purple larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated orange larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
-<a class="btn-beautify button--animated green larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>
 ]]></content>
       <categories>
         <category>Linux</category>
