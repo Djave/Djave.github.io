@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://djave5656.com/2021/08/14/Linux/</loc>
+    <loc>http://djave5656.com/2021/08/14/CSS/</loc>
     
     <lastmod>2021-08-14</lastmod>
     
@@ -16,14 +16,21 @@
   </url>
   
   <url>
-    <loc>http://djave5656.com/movies/index.html</loc>
+    <loc>http://djave5656.com/2021/08/14/Linux/</loc>
     
-    <lastmod>2021-08-13</lastmod>
+    <lastmod>2021-08-14</lastmod>
     
   </url>
   
   <url>
     <loc>http://djave5656.com/music/index.html</loc>
+    
+    <lastmod>2021-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://djave5656.com/movies/index.html</loc>
     
     <lastmod>2021-08-13</lastmod>
     
@@ -74,7 +81,7 @@
 
   
   <url>
-    <loc>http://djave5656.com/tags/HTML/</loc>
+    <loc>http://djave5656.com/tags/CSS/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -82,6 +89,13 @@
   
   <url>
     <loc>http://djave5656.com/tags/Linux/</loc>
+    <lastmod>2021-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://djave5656.com/tags/HTML/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -97,7 +111,7 @@
 
   
   <url>
-    <loc>http://djave5656.com/categories/HTML/</loc>
+    <loc>http://djave5656.com/categories/CSS/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -105,6 +119,13 @@
   
   <url>
     <loc>http://djave5656.com/categories/Linux/</loc>
+    <lastmod>2021-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://djave5656.com/categories/HTML/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
