@@ -65,92 +65,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开发中常用的网站</title>
-    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
-
-<table>
-<thead>
-<tr>
-<th align="center"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
-<th align="center"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
-<td align="center"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
-<td align="center"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.bootcss.com/">Bootstrap</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.gulpjs.com.cn/">Gulp</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.npmjs.com/">npm</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://axios-http.com/zh/docs/intro">Axios</a></strong></em></td>
-<td align="center"><em><strong><a href="https://flexbox.malven.co/">CSS Flex</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.caniuse.com/">caniuse</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
-<td align="center"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
-<td align="center"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
-<td align="center"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
-<td align="center"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.w3cplus.com/">W3cplus</a></strong></em></td>
-<td align="center"><em><strong><a href="https://es6.ruanyifeng.com/">ES6阮一峰</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
-</tr>
-</tbody></table>
-<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
-<thead>
-<tr>
-<th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
-<td align="center"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.djangoproject.com/">Django</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.koajs.com.cn/">Koa中文教程</a></strong></em></td>
-<td align="center"><em><strong><a href="https://eggjs.org/zh-cn/">Egg中文</a></strong></em></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>site</category>
-      </categories>
-      <tags>
-        <tag>常用网站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux 中的相关命令</title>
     <url>/2021/08/14/Linux/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="购买连接云服务器"><a href="#购买连接云服务器" class="headerlink" title="购买连接云服务器"></a><font color=orange>购买连接云服务器</font></h2><h3 id="购买平台"><a href="#购买平台" class="headerlink" title="购买平台"></a><font color=skyblue>购买平台</font></h3><ul>
@@ -237,7 +151,7 @@
 </ul>
 </li>
 <li>Windows上复制一个文件到Linux服务器<ul>
-<li>scp -r 本地需要上传的文件路径 <a href="mailto:&#114;&#111;&#x6f;&#116;&#x40;&#49;&#57;&#50;&#46;&#x31;&#54;&#x38;&#x2e;&#x31;&#x30;&#48;&#x2e;&#x38;&#48;">&#114;&#111;&#x6f;&#116;&#x40;&#49;&#57;&#50;&#46;&#x31;&#54;&#x38;&#x2e;&#x31;&#x30;&#48;&#x2e;&#x38;&#48;</a>:/opt</li>
+<li>scp -r 本地需要上传的文件路径 <a href="mailto:&#114;&#x6f;&#111;&#x74;&#x40;&#x31;&#57;&#50;&#x2e;&#x31;&#54;&#x38;&#46;&#x31;&#x30;&#x30;&#46;&#x38;&#48;">&#114;&#x6f;&#111;&#x74;&#x40;&#x31;&#57;&#50;&#x2e;&#x31;&#54;&#x38;&#46;&#x31;&#x30;&#x30;&#46;&#x38;&#48;</a>:/opt</li>
 </ul>
 </li>
 <li>配置环境变量 vim /etc/profile<ul>
@@ -252,6 +166,92 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开发中常用的网站</title>
+    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th align="center"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
+<th align="center"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
+<td align="center"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
+<td align="center"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.bootcss.com/">Bootstrap</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.gulpjs.com.cn/">Gulp</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.npmjs.com/">npm</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://axios-http.com/zh/docs/intro">Axios</a></strong></em></td>
+<td align="center"><em><strong><a href="https://flexbox.malven.co/">CSS Flex</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.caniuse.com/">caniuse</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
+<td align="center"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
+<td align="center"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
+<td align="center"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
+<td align="center"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.w3cplus.com/">W3cplus</a></strong></em></td>
+<td align="center"><em><strong><a href="https://es6.ruanyifeng.com/">ES6阮一峰</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
+</tr>
+</tbody></table>
+<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
+<thead>
+<tr>
+<th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
+<td align="center"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.djangoproject.com/">Django</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.koajs.com.cn/">Koa中文教程</a></strong></em></td>
+<td align="center"><em><strong><a href="https://eggjs.org/zh-cn/">Egg中文</a></strong></em></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>site</category>
+      </categories>
+      <tags>
+        <tag>常用网站</tag>
       </tags>
   </entry>
 </search>
