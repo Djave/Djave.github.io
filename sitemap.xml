@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://djave5656.com/movies/index.html</loc>
+    
+    <lastmod>2021-08-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://djave5656.com/2021/08/15/JS/</loc>
     
     <lastmod>2021-08-15</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://djave5656.com/music/index.html</loc>
     
     <lastmod>2021-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://djave5656.com/movies/index.html</loc>
-    
-    <lastmod>2021-08-13</lastmod>
     
   </url>
   
@@ -88,14 +88,14 @@
 
   
   <url>
-    <loc>http://djave5656.com/tags/CSS/</loc>
+    <loc>http://djave5656.com/tags/HTML/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://djave5656.com/tags/HTML/</loc>
+    <loc>http://djave5656.com/tags/CSS/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -109,14 +109,14 @@
   </url>
   
   <url>
-    <loc>http://djave5656.com/tags/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</loc>
+    <loc>http://djave5656.com/tags/Linux/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://djave5656.com/tags/Linux/</loc>
+    <loc>http://djave5656.com/tags/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -125,14 +125,14 @@
 
   
   <url>
-    <loc>http://djave5656.com/categories/CSS/</loc>
+    <loc>http://djave5656.com/categories/HTML/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://djave5656.com/categories/HTML/</loc>
+    <loc>http://djave5656.com/categories/CSS/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -146,14 +146,14 @@
   </url>
   
   <url>
-    <loc>http://djave5656.com/categories/site/</loc>
+    <loc>http://djave5656.com/categories/Linux/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://djave5656.com/categories/Linux/</loc>
+    <loc>http://djave5656.com/categories/site/</loc>
     <lastmod>2021-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

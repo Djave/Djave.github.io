@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>HTML中的相关概念</title>
+    <url>/2021/08/12/HTML/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="HTML-中常用的标签"><a href="#HTML-中常用的标签" class="headerlink" title="HTML 中常用的标签"></a><font color=orange>HTML 中常用的标签</font></h2><span id="more"></span>
+<ol>
+<li>布局： div 分天下</li>
+<li>文本类： h1~h6, p, span, strong, em, b, br</li>
+<li>文本修饰标签：b, strong, i, em, s, u</li>
+<li>表单：input, select, button, textarea, fieldset, lengend, label, option</li>
+<li>表格：tabel, th, td, caption, tr, tbody, thead</li>
+<li>列表：ul, li, dl, dd, dt, ol</li>
+<li>其他：a, img, meta, link, script, code, pre</li>
+</ol>
+<hr />
+
+<h2 id="HTML5-新增的布局语义化标签"><a href="#HTML5-新增的布局语义化标签" class="headerlink" title="HTML5 新增的布局语义化标签"></a><font color=orange>HTML5 新增的布局语义化标签</font></h2><ul>
+<li>article aside footer header nav section</li>
+</ul>
+<hr />
+
+<h2 id="HTML中常用的实体"><a href="#HTML中常用的实体" class="headerlink" title="HTML中常用的实体"></a><font color=orange>HTML中常用的实体</font></h2><table>
+<thead>
+<tr>
+<th align="center">代码</th>
+<th align="center">效果</th>
+<th align="center">代码</th>
+<th align="center">效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">&amp;quot;</td>
+<td align="center">“</td>
+<td align="center">&amp;amp;</td>
+<td align="center">&amp;</td>
+</tr>
+<tr>
+<td align="center">&amp;lt;</td>
+<td align="center">&lt;</td>
+<td align="center">&amp;gt;</td>
+<td align="center">&gt;</td>
+</tr>
+<tr>
+<td align="center">&amp;nbsp;</td>
+<td align="center">空格</td>
+<td align="center">&amp;copy;</td>
+<td align="center">©</td>
+</tr>
+<tr>
+<td align="center">&amp;sect;</td>
+<td align="center">§</td>
+<td align="center">&amp;curren;</td>
+<td align="center">¤</td>
+</tr>
+</tbody></table>
+<hr />
+
+<h2 id="标签使用中的注意点"><a href="#标签使用中的注意点" class="headerlink" title="标签使用中的注意点"></a><font color=orange>标签使用中的注意点</font></h2><blockquote>
+<p>字体标签在SEO中的权重：标签 h1&gt;h2&gt;h3&gt;h4&gt;h5&gt;h6 加重语气的标签 strong &gt; b em &gt; i<br>SEO：是指在了解搜索引擎自然排名机制的基础上，对网站进行内部及外部的调整优化，改进网站在搜索引擎中的关键词自然排名，获得更多流量， 从而达成网站销售及品牌建设的目标。</p>
+</blockquote>
+<hr />
+
+<h2 id="常用标签的相关属性"><a href="#常用标签的相关属性" class="headerlink" title="常用标签的相关属性"></a><font color=orange>常用标签的相关属性</font></h2><h3 id="链接标签（a标签）"><a href="#链接标签（a标签）" class="headerlink" title="链接标签（a标签）"></a><font color=skyblue>链接标签（a标签）</font></h3><blockquote>
+<p>链接是指从一个页面指向到另一个目标体，目标体可以是一个图片，也可以是一个网页，也可以是一个文件等，超链接是网络的灵魂，使用的HTML标记是<a>标记。</p>
+</blockquote>
+<hr />
+]]></content>
+      <categories>
+        <category>HTML</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS 中的常见的几种布局方式</title>
     <url>/2021/08/14/CSS/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="流式布局"><a href="#流式布局" class="headerlink" title="流式布局"></a><font color=orange>流式布局</font></h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a><font color=skyblue>概念</font></h3><blockquote>
@@ -145,79 +218,6 @@
       </tags>
   </entry>
   <entry>
-    <title>HTML中的相关概念</title>
-    <url>/2021/08/12/HTML/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="HTML-中常用的标签"><a href="#HTML-中常用的标签" class="headerlink" title="HTML 中常用的标签"></a><font color=orange>HTML 中常用的标签</font></h2><span id="more"></span>
-<ol>
-<li>布局： div 分天下</li>
-<li>文本类： h1~h6, p, span, strong, em, b, br</li>
-<li>文本修饰标签：b, strong, i, em, s, u</li>
-<li>表单：input, select, button, textarea, fieldset, lengend, label, option</li>
-<li>表格：tabel, th, td, caption, tr, tbody, thead</li>
-<li>列表：ul, li, dl, dd, dt, ol</li>
-<li>其他：a, img, meta, link, script, code, pre</li>
-</ol>
-<hr />
-
-<h2 id="HTML5-新增的布局语义化标签"><a href="#HTML5-新增的布局语义化标签" class="headerlink" title="HTML5 新增的布局语义化标签"></a><font color=orange>HTML5 新增的布局语义化标签</font></h2><ul>
-<li>article aside footer header nav section</li>
-</ul>
-<hr />
-
-<h2 id="HTML中常用的实体"><a href="#HTML中常用的实体" class="headerlink" title="HTML中常用的实体"></a><font color=orange>HTML中常用的实体</font></h2><table>
-<thead>
-<tr>
-<th align="center">代码</th>
-<th align="center">效果</th>
-<th align="center">代码</th>
-<th align="center">效果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">&amp;quot;</td>
-<td align="center">“</td>
-<td align="center">&amp;amp;</td>
-<td align="center">&amp;</td>
-</tr>
-<tr>
-<td align="center">&amp;lt;</td>
-<td align="center">&lt;</td>
-<td align="center">&amp;gt;</td>
-<td align="center">&gt;</td>
-</tr>
-<tr>
-<td align="center">&amp;nbsp;</td>
-<td align="center">空格</td>
-<td align="center">&amp;copy;</td>
-<td align="center">©</td>
-</tr>
-<tr>
-<td align="center">&amp;sect;</td>
-<td align="center">§</td>
-<td align="center">&amp;curren;</td>
-<td align="center">¤</td>
-</tr>
-</tbody></table>
-<hr />
-
-<h2 id="标签使用中的注意点"><a href="#标签使用中的注意点" class="headerlink" title="标签使用中的注意点"></a><font color=orange>标签使用中的注意点</font></h2><blockquote>
-<p>字体标签在SEO中的权重：标签 h1&gt;h2&gt;h3&gt;h4&gt;h5&gt;h6 加重语气的标签 strong &gt; b em &gt; i<br>SEO：是指在了解搜索引擎自然排名机制的基础上，对网站进行内部及外部的调整优化，改进网站在搜索引擎中的关键词自然排名，获得更多流量， 从而达成网站销售及品牌建设的目标。</p>
-</blockquote>
-<hr />
-
-<h2 id="常用标签的相关属性"><a href="#常用标签的相关属性" class="headerlink" title="常用标签的相关属性"></a><font color=orange>常用标签的相关属性</font></h2><h3 id="链接标签（a标签）"><a href="#链接标签（a标签）" class="headerlink" title="链接标签（a标签）"></a><font color=skyblue>链接标签（a标签）</font></h3><blockquote>
-<p>链接是指从一个页面指向到另一个目标体，目标体可以是一个图片，也可以是一个网页，也可以是一个文件等，超链接是网络的灵魂，使用的HTML标记是<a>标记。</p>
-</blockquote>
-<hr />
-]]></content>
-      <categories>
-        <category>HTML</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>浅谈 JS 中的事件循环机制</title>
     <url>/2021/08/15/JS/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="预备知识"><a href="#预备知识" class="headerlink" title="预备知识"></a><font color=orange>预备知识</font></h2><h3 id="单线程与多线程"><a href="#单线程与多线程" class="headerlink" title="单线程与多线程"></a><font color=skyblue>单线程与多线程</font></h3><h4 id="单线程"><a href="#单线程" class="headerlink" title="单线程"></a><font color=Fuchsia>单线程</font></h4><ul>
@@ -341,10 +341,10 @@
 <li>宏任务：setTimeout，setInterval，setImmediate，I/O(磁盘读写或网络通信)，UI交互事件</li>
 <li>微任务：process.nextTick，Promise.then</li>
 </ul>
+<p><img src="https://s4.aconvert.com/convert/p3r68-cdx67/aqgv9-c2vrk.jpg"></p>
 <ol>
 <li><em><strong><font color=skyblue>浏览器环境中执行方法时，先将执行栈中的任务清空，再将微任务推到执行栈中并清空，之后检查是否存在宏任务，若存在则取出一个宏任务，执行完成检查是否有微任务，以此循环…</font></strong></em></li>
 </ol>
-<p><img src="https://s4.aconvert.com/convert/p3r68-cdx67/aqgv9-c2vrk.jpg"></p>
 <ol start="2">
 <li><em><strong><font color=skyblue>Event Loop在浏览器与node环境中的区别:</font></strong></em><ol>
 <li>浏览器环境每次执行一个宏任务，再去检查微任务</li>
@@ -444,92 +444,6 @@
       </categories>
       <tags>
         <tag>JS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开发中常用的网站</title>
-    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
-
-<table>
-<thead>
-<tr>
-<th align="center"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
-<th align="center"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
-<td align="center"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
-<td align="center"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.bootcss.com/">Bootstrap</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.gulpjs.com.cn/">Gulp</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.npmjs.com/">npm</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://axios-http.com/zh/docs/intro">Axios</a></strong></em></td>
-<td align="center"><em><strong><a href="https://flexbox.malven.co/">CSS Flex</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.caniuse.com/">caniuse</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
-<td align="center"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
-<td align="center"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
-<td align="center"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
-<td align="center"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.w3cplus.com/">W3cplus</a></strong></em></td>
-<td align="center"><em><strong><a href="https://es6.ruanyifeng.com/">ES6阮一峰</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
-</tr>
-</tbody></table>
-<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
-<thead>
-<tr>
-<th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
-<td align="center"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.djangoproject.com/">Django</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.koajs.com.cn/">Koa中文教程</a></strong></em></td>
-<td align="center"><em><strong><a href="https://eggjs.org/zh-cn/">Egg中文</a></strong></em></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>site</category>
-      </categories>
-      <tags>
-        <tag>常用网站</tag>
       </tags>
   </entry>
   <entry>
@@ -637,6 +551,92 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开发中常用的网站</title>
+    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th align="center"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
+<th align="center"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
+<td align="center"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
+<td align="center"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.bootcss.com/">Bootstrap</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.gulpjs.com.cn/">Gulp</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.npmjs.com/">npm</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://axios-http.com/zh/docs/intro">Axios</a></strong></em></td>
+<td align="center"><em><strong><a href="https://flexbox.malven.co/">CSS Flex</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.caniuse.com/">caniuse</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
+<td align="center"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
+<td align="center"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
+<td align="center"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
+<td align="center"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.w3cplus.com/">W3cplus</a></strong></em></td>
+<td align="center"><em><strong><a href="https://es6.ruanyifeng.com/">ES6阮一峰</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
+</tr>
+</tbody></table>
+<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
+<thead>
+<tr>
+<th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
+<td align="center"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.djangoproject.com/">Django</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.koajs.com.cn/">Koa中文教程</a></strong></em></td>
+<td align="center"><em><strong><a href="https://eggjs.org/zh-cn/">Egg中文</a></strong></em></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>site</category>
+      </categories>
+      <tags>
+        <tag>常用网站</tag>
       </tags>
   </entry>
 </search>
