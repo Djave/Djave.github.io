@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JS中常见的问题（一）</title>
+    <url>/2021/08/16/001-JS%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、闭包"><a href="#一、闭包" class="headerlink" title="一、闭包"></a><font color=orange>一、闭包</font></h2><blockquote>
+<p>闭包说的通俗一点就是打通了一条在函数外部访问函数内部作用域的通道。</p>
+<blockquote>
+<p>一句话可以概括：闭包就是能够读取其他函数内部变量的函数，或者子函数在外调用， 子函数所在的父函数的作用域不会被释放。</p>
+</blockquote>
+</blockquote>
+<ul>
+<li>正常情况下函数外部是访问不到函数内部作用域变量的</li>
+<li>内部函数调用外层函数的局部变量</li>
+<li>表象判断是不是闭包:函数嵌套函数,内部函数被 <code>return</code></li>
+<li>内部函数调用外层函数的局部变量</li>
+<li>优点：可以隔离作用域，不造成全局污染</li>
+<li>缺点：由于闭包长期驻留内存，则长期这样会导致内存泄露</li>
+<li>如何解决内存泄露：将暴露全外部的闭包变量置为 <code>null</code></li>
+<li>适用场景：封装组件，<code>for</code>循环和定时器结合使用,<code>for</code>循环和<code>dom</code>事件结合.可以在性能优化的过程中,节流防抖函数的使用,导航栏获取下标的使用</li>
+</ul>
+<h2 id="二、JS中的原型链的理解"><a href="#二、JS中的原型链的理解" class="headerlink" title="二、JS中的原型链的理解"></a><font color=orange>二、JS中的原型链的理解</font></h2><blockquote>
+<p>原型链是理解JS面向对象很重要的一点，这里主要涉及到两个点，一是__proto__ ，二是prototype。</p>
+</blockquote>
+<ul>
+<li><p>Example1: 举个例子吧，这样还好说点，例如：我用function创建一个Person类，然后用new Person创建一个对象的实例假如叫p1吧，在Person类的原型 prototype添加一个方法</p>
+</li>
+<li><p>Example2: 例如：play方法,那对象实例p1如何查找到play这个方法呢，有一个查找过程，具体流程是这样的</p>
+</li>
+</ul>
+<ol>
+<li>首先在p1对象实例上查找是否有有play方法</li>
+<li>如果有则调用执行，如果没有则用p1.__proto__(__proto__是一个指向的作用,指向上一层的原型)往创建p1的类的原型上查找，也就是说往Person.prototype上查找</li>
+<li>如果在Person.prototype找到play方法则执行，否则继续往上查找，则用Person.prototye.__proto__继续往上查找，找到Object.prototype</li>
+<li>如果Object.prototype有play方法则执行之，否则用Object.prototype.__proto__继续再往上查找，但Object.prototpye.__proto__上一级是null,也就是原型链的顶级，结束原型链的查找，这是我对原型链的理解</li>
+</ol>
+<h2 id="三、JS继承（含ES6的）–或者有两个类A和B-B怎么继承A？"><a href="#三、JS继承（含ES6的）–或者有两个类A和B-B怎么继承A？" class="headerlink" title="三、JS继承（含ES6的）–或者有两个类A和B,B怎么继承A？"></a><font color=orange>三、JS继承（含ES6的）–或者有两个类A和B,B怎么继承A？</font></h2><blockquote>
+<p>JS继承实现方式也很多，主要分ES5和ES6继承的实现</p>
+</blockquote>
+<h3 id="ES5实现继承"><a href="#ES5实现继承" class="headerlink" title="ES5实现继承"></a><font color=skyblue>ES5实现继承</font></h3><ul>
+<li>ES5实现继承主要是基于prototype来实现的，具体有三种方法<ol>
+<li>原型链继承：即 B.prototype=new A()</li>
+<li>二是借用构造函数继承(call或者apply的方式继承)</li>
+<li>组合继承: 组合继承是结合第一种和第二种方式</li>
+</ol>
+</li>
+</ul>
+<h3 id="ES6实现继承"><a href="#ES6实现继承" class="headerlink" title="ES6实现继承"></a><font color=skyblue>ES6实现继承</font></h3><blockquote>
+<p>ES6继承是目前比较新，并且主流的继承方式，用class定义类，用extends继承类，用super()表示父类</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">例如：创建A类</span><br><span class="line"><span class="class"><span class="keyword">class</span>  <span class="title">A</span> ｛</span></span><br><span class="line"><span class="class">  <span class="title">constructor</span>() </span>&#123;</span><br><span class="line">    <span class="comment">//构造器代码，new时自动执行</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 方法1( ) &#123; //A类的方法 &#125;</span></span><br><span class="line">  <span class="comment">// 方法2( ) &#123; //A类的方法 &#125;</span></span><br><span class="line"></span><br><span class="line">｝</span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建B类并继承A类</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span> <span class="keyword">extends</span> <span class="title">A</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">constructor</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">super</span>()  <span class="comment">//表示父类</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 实例化B类： </span></span><br><span class="line"><span class="keyword">var</span> b1=<span class="keyword">new</span> B( )</span><br><span class="line">b1.方法<span class="number">1</span>( )</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="四、JS绑定原生事件"><a href="#四、JS绑定原生事件" class="headerlink" title="四、JS绑定原生事件"></a><font color=orange>四、JS绑定原生事件</font></h2><ul>
+<li><p>JS原生绑定事件主要为三种：</p>
+<ol>
+<li>html事件处理程序</li>
+<li>DOM0级事件处理程序</li>
+<li>DOM2级事件处理程序</li>
+</ol>
+</li>
+<li><p>其中：html事件现在早已不用了，就是在html各种标签上直接添加事件，类似于css的行内样式</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>JS</category>
+      </categories>
+      <tags>
+        <tag>JS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS 中的常见的几种布局方式</title>
     <url>/2021/08/14/CSS/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="流式布局"><a href="#流式布局" class="headerlink" title="流式布局"></a><font color=orange>流式布局</font></h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a><font color=skyblue>概念</font></h3><blockquote>
@@ -142,75 +211,6 @@
       </categories>
       <tags>
         <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JS中常见的问题（一）</title>
-    <url>/2021/08/16/001-JS%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、闭包"><a href="#一、闭包" class="headerlink" title="一、闭包"></a><font color=orange>一、闭包</font></h2><blockquote>
-<p>闭包说的通俗一点就是打通了一条在函数外部访问函数内部作用域的通道。</p>
-<blockquote>
-<p>一句话可以概括：闭包就是能够读取其他函数内部变量的函数，或者子函数在外调用， 子函数所在的父函数的作用域不会被释放。</p>
-</blockquote>
-</blockquote>
-<ul>
-<li>正常情况下函数外部是访问不到函数内部作用域变量的</li>
-<li>内部函数调用外层函数的局部变量</li>
-<li>表象判断是不是闭包:函数嵌套函数,内部函数被 <code>return</code></li>
-<li>内部函数调用外层函数的局部变量</li>
-<li>优点：可以隔离作用域，不造成全局污染</li>
-<li>缺点：由于闭包长期驻留内存，则长期这样会导致内存泄露</li>
-<li>如何解决内存泄露：将暴露全外部的闭包变量置为 <code>null</code></li>
-<li>适用场景：封装组件，<code>for</code>循环和定时器结合使用,<code>for</code>循环和<code>dom</code>事件结合.可以在性能优化的过程中,节流防抖函数的使用,导航栏获取下标的使用</li>
-</ul>
-<h2 id="二、JS中的原型链的理解"><a href="#二、JS中的原型链的理解" class="headerlink" title="二、JS中的原型链的理解"></a><font color=orange>二、JS中的原型链的理解</font></h2><blockquote>
-<p>原型链是理解JS面向对象很重要的一点，这里主要涉及到两个点，一是__proto__ ，二是prototype。</p>
-</blockquote>
-<ul>
-<li><p>Example1: 举个例子吧，这样还好说点，例如：我用function创建一个Person类，然后用new Person创建一个对象的实例假如叫p1吧，在Person类的原型 prototype添加一个方法</p>
-</li>
-<li><p>Example2: 例如：play方法,那对象实例p1如何查找到play这个方法呢，有一个查找过程，具体流程是这样的</p>
-</li>
-</ul>
-<ol>
-<li>首先在p1对象实例上查找是否有有play方法</li>
-<li>如果有则调用执行，如果没有则用p1.__proto__(__proto__是一个指向的作用,指向上一层的原型)往创建p1的类的原型上查找，也就是说往Person.prototype上查找</li>
-<li>如果在Person.prototype找到play方法则执行，否则继续往上查找，则用Person.prototye.__proto__继续往上查找，找到Object.prototype</li>
-<li>如果Object.prototype有play方法则执行之，否则用Object.prototype.__proto__继续再往上查找，但Object.prototpye.__proto__上一级是null,也就是原型链的顶级，结束原型链的查找，这是我对原型链的理解</li>
-</ol>
-<h2 id="三、JS继承（含ES6的）–或者有两个类A和B-B怎么继承A？"><a href="#三、JS继承（含ES6的）–或者有两个类A和B-B怎么继承A？" class="headerlink" title="三、JS继承（含ES6的）–或者有两个类A和B,B怎么继承A？"></a><font color=orange>三、JS继承（含ES6的）–或者有两个类A和B,B怎么继承A？</font></h2><blockquote>
-<p>JS继承实现方式也很多，主要分ES5和ES6继承的实现</p>
-</blockquote>
-<h3 id="ES5实现继承"><a href="#ES5实现继承" class="headerlink" title="ES5实现继承"></a><font color=skyblue>ES5实现继承</font></h3><ul>
-<li>ES5实现继承主要是基于prototype来实现的，具体有三种方法<ol>
-<li>原型链继承：即 B.prototype=new A()</li>
-<li>二是借用构造函数继承(call或者apply的方式继承)</li>
-<li>组合继承: 组合继承是结合第一种和第二种方式</li>
-</ol>
-</li>
-</ul>
-<h3 id="ES6实现继承"><a href="#ES6实现继承" class="headerlink" title="ES6实现继承"></a><font color=skyblue>ES6实现继承</font></h3><blockquote>
-<p>ES6继承是目前比较新，并且主流的继承方式，用class定义类，用extends继承类，用super()表示父类</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">例如：创建A类</span><br><span class="line"><span class="class"><span class="keyword">class</span>  <span class="title">A</span> ｛</span></span><br><span class="line"><span class="class">  <span class="title">constructor</span>() </span>&#123;</span><br><span class="line">    <span class="comment">//构造器代码，new时自动执行</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 方法1( ) &#123; //A类的方法 &#125;</span></span><br><span class="line">  <span class="comment">// 方法2( ) &#123; //A类的方法 &#125;</span></span><br><span class="line"></span><br><span class="line">｝</span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建B类并继承A类</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span> <span class="keyword">extends</span> <span class="title">A</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">constructor</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">super</span>()  <span class="comment">//表示父类</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 实例化B类： </span></span><br><span class="line"><span class="keyword">var</span> b1=<span class="keyword">new</span> B( )</span><br><span class="line">b1.方法<span class="number">1</span>( )</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="四、JS绑定原生事件"><a href="#四、JS绑定原生事件" class="headerlink" title="四、JS绑定原生事件"></a><font color=orange>四、JS绑定原生事件</font></h2><ul>
-<li><p>JS原生绑定事件主要为三种：</p>
-<ol>
-<li>html事件处理程序</li>
-<li>DOM0级事件处理程序</li>
-<li>DOM2级事件处理程序</li>
-</ol>
-</li>
-<li><p>其中：html事件现在早已不用了，就是在html各种标签上直接添加事件，类似于css的行内样式</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>JS</category>
-      </categories>
-      <tags>
-        <tag>JS</tag>
       </tags>
   </entry>
   <entry>
