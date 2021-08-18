@@ -102,13 +102,6 @@
   </url>
   
   <url>
-    <loc>http://djave5656.com/tags/HTML/</loc>
-    <lastmod>2021-08-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://djave5656.com/tags/CSS/</loc>
     <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
@@ -116,7 +109,7 @@
   </url>
   
   <url>
-    <loc>http://djave5656.com/tags/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</loc>
+    <loc>http://djave5656.com/tags/HTML/</loc>
     <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -124,6 +117,13 @@
   
   <url>
     <loc>http://djave5656.com/tags/Linux/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://djave5656.com/tags/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -139,13 +139,6 @@
   </url>
   
   <url>
-    <loc>http://djave5656.com/categories/HTML/</loc>
-    <lastmod>2021-08-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://djave5656.com/categories/CSS/</loc>
     <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
@@ -153,7 +146,7 @@
   </url>
   
   <url>
-    <loc>http://djave5656.com/categories/site/</loc>
+    <loc>http://djave5656.com/categories/HTML/</loc>
     <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -161,6 +154,13 @@
   
   <url>
     <loc>http://djave5656.com/categories/Linux/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://djave5656.com/categories/site/</loc>
     <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
