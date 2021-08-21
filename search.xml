@@ -3,7 +3,7 @@
   <entry>
     <title>JS中常见的问题（一）</title>
     <url>/2021/08/16/001-JS%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、闭包"><a href="#一、闭包" class="headerlink" title="一、闭包"></a><font color=orange>一、闭包</font></h2><blockquote>
+    <content><![CDATA[<h2 id="一、闭包"><a href="#一、闭包" class="headerlink" title="一、闭包"></a><font color=orange>一、闭包</font></h2><blockquote>
 <p>闭包说的通俗一点就是打通了一条在函数外部访问函数内部作用域的通道。</p>
 <blockquote>
 <p>一句话可以概括：闭包就是能够读取其他函数内部变量的函数，或者子函数在外调用， 子函数所在的父函数的作用域不会被释放。</p>
@@ -258,7 +258,7 @@
   <entry>
     <title>CSS 中的常见的几种布局方式</title>
     <url>/2021/08/14/CSS/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="流式布局"><a href="#流式布局" class="headerlink" title="流式布局"></a><font color=orange>流式布局</font></h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a><font color=skyblue>概念</font></h3><blockquote>
+    <content><![CDATA[<h2 id="流式布局"><a href="#流式布局" class="headerlink" title="流式布局"></a><font color=orange>流式布局</font></h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a><font color=skyblue>概念</font></h3><blockquote>
 <p>流式布局是一种等比例缩放布局方式，在CSS代码中使用百分比来设置宽度，也称百分比自适应的布局。</p>
 </blockquote>
 <h3 id="实现方法"><a href="#实现方法" class="headerlink" title="实现方法"></a><font color=skyblue>实现方法</font></h3><blockquote>
@@ -402,7 +402,7 @@
   <entry>
     <title>HTML中的相关概念</title>
     <url>/2021/08/12/HTML/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="HTML-中常用的标签"><a href="#HTML-中常用的标签" class="headerlink" title="HTML 中常用的标签"></a><font color=orange>HTML 中常用的标签</font></h2><span id="more"></span>
+    <content><![CDATA[<h2 id="HTML-中常用的标签"><a href="#HTML-中常用的标签" class="headerlink" title="HTML 中常用的标签"></a><font color=orange>HTML 中常用的标签</font></h2><span id="more"></span>
 <ol>
 <li>布局： div 分天下</li>
 <li>文本类： h1~h6, p, span, strong, em, b, br</li>
@@ -473,9 +473,202 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux 中的相关命令</title>
+    <url>/2021/08/14/Linux/</url>
+    <content><![CDATA[<h2 id="购买连接云服务器"><a href="#购买连接云服务器" class="headerlink" title="购买连接云服务器"></a><font color=orange>购买连接云服务器</font></h2><h3 id="购买平台"><a href="#购买平台" class="headerlink" title="购买平台"></a><font color=skyblue>购买平台</font></h3><ul>
+<li><a class="btn-beautify button--animated green larger" href="https://cloud.tencent.com/" 
+  title="腾讯云"><i class="far fa-hand-point-right"></i><span>腾讯云</span></a></li>
+<li><a class="btn-beautify button--animated green larger" href="https://www.aliyun.com/" 
+  title="阿里云"><i class="far fa-hand-point-right"></i><span>阿里云</span></a></li>
+</ul>
+<h3 id="Linux-系统"><a href="#Linux-系统" class="headerlink" title="Linux 系统"></a><font color=skyblue>Linux 系统</font></h3><ul>
+<li><code>centos</code></li>
+<li><code>redhat</code></li>
+</ul>
+<hr />
+
+<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a><font color=orange>操作命令</font></h2><ul>
+<li>建立链接：<code>ssh 用户名@ip地址</code></li>
+<li>查看文件位置：<code>pwd</code></li>
+<li>查看当前目录下的文件和文件夹：<code>ll</code><ul>
+<li>区分文件和文件夹：看首字母<ul>
+<li><code>d</code>: 文件夹</li>
+<li><code>l</code>: 软链接</li>
+<li><code>~</code>：文件</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>创建文件夹：<code>mkdir 目录名</code></li>
+<li>创建文件：<code>touch 文件名</code></li>
+<li>删除文件/文件夹：<ul>
+<li><code>rm -rf 文件/文件夹</code></li>
+<li><code>rm -rf /* 不要使用</code></li>
+<li><code>rm -rf * 也不要使用</code></li>
+</ul>
+</li>
+<li>查看文件内容：<code>cat 文件</code></li>
+<li>编辑文件：<code>vi 文件</code><ul>
+<li>三种模式<ul>
+<li>一般模式：使用 <code>vi</code> 命令回车之后默认进入的就是一般模式（删除指令模式中的:）<ul>
+<li>特点：不能编辑文件内容，只能通过一些快捷键去操作文件内容</li>
+<li><code>dd</code>: 删除一行数据</li>
+<li><code>yy</code>: 赋值一行数据</li>
+<li><code>p</code>: 粘贴一行数据</li>
+<li><code>u</code>: 撤销操作</li>
+</ul>
+</li>
+<li>编辑模式：自由编辑<ul>
+<li>如何进入<ul>
+<li>在一般模式下按 <code>a</code> || <code>A</code> || <code>i</code> || <code>I</code> || <code>o</code> || <code>O</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>指令模式：只能从一般模式进入<ul>
+<li><code>:q</code>：退出</li>
+<li><code>:w</code>：保存</li>
+<li><code>:wq</code>：保存退出</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Linux 上文件安装<ul>
+<li>压缩包安装：<code>.tar.gz</code>, <code>.tar.xz</code><ul>
+<li><code>.tar.gz</code>: <code>tar -zxvf xxx.tar.gz -C 解压的路径</code></li>
+<li><code>.tar.xz</code>: <code>tar -xvf xxx.tar.xz -C 解压的路径</code></li>
+</ul>
+</li>
+<li>使用安装包安装：<code>.rpm</code><ul>
+<li>查看包<ul>
+<li><code>rpm -qa | grep mysql</code></li>
+</ul>
+</li>
+<li>安装包<ul>
+<li><code>rpm -ivh 包名</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>使用软件商店安装: <code>yum</code><ul>
+<li><code>yum install -y 软件名</code></li>
+<li><code>yum update 软件名</code></li>
+<li><code>yum remove 软件名</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Windows上复制一个文件到Linux服务器<ul>
+<li><code>scp -r 本地需要上传的文件路径 root@192.168.100.80:/opt</code></li>
+</ul>
+</li>
+<li>配置环境变量 vim /etc/profile<ul>
+<li>进入文件之后光标移动到最后一行 按<code>o</code>开始配置 <code>export PATH=$PATH</code></li>
+<li>环境变量配置完成之后需要执行如下命令把配置文件进行加载</li>
+</ul>
+</li>
+</ul>
+<hr />
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开发中常用的网站</title>
+    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th align="center"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
+<th align="center"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
+<td align="center"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
+<td align="center"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.bootcss.com/">Bootstrap</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.gulpjs.com.cn/">Gulp</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.npmjs.com/">npm</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://axios-http.com/zh/docs/intro">Axios</a></strong></em></td>
+<td align="center"><em><strong><a href="https://flexbox.malven.co/">CSS Flex</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.caniuse.com/">caniuse</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
+<td align="center"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
+<td align="center"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
+<td align="center"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
+<td align="center"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.w3cplus.com/">W3cplus</a></strong></em></td>
+<td align="center"><em><strong><a href="https://es6.ruanyifeng.com/">ES6阮一峰</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
+</tr>
+</tbody></table>
+<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
+<thead>
+<tr>
+<th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
+<td align="center"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.djangoproject.com/">Django</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.koajs.com.cn/">Koa中文教程</a></strong></em></td>
+<td align="center"><em><strong><a href="https://eggjs.org/zh-cn/">Egg中文</a></strong></em></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>site</category>
+      </categories>
+      <tags>
+        <tag>常用网站</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>浅谈 JS 中的事件循环机制</title>
     <url>/2021/08/15/JS/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="预备知识"><a href="#预备知识" class="headerlink" title="预备知识"></a><font color=orange>预备知识</font></h2><h3 id="单线程与多线程"><a href="#单线程与多线程" class="headerlink" title="单线程与多线程"></a><font color=skyblue>单线程与多线程</font></h3><h4 id="单线程"><a href="#单线程" class="headerlink" title="单线程"></a><font color=Fuchsia>单线程</font></h4><ul>
+    <content><![CDATA[<h2 id="预备知识"><a href="#预备知识" class="headerlink" title="预备知识"></a><font color=orange>预备知识</font></h2><h3 id="单线程与多线程"><a href="#单线程与多线程" class="headerlink" title="单线程与多线程"></a><font color=skyblue>单线程与多线程</font></h3><h4 id="单线程"><a href="#单线程" class="headerlink" title="单线程"></a><font color=Fuchsia>单线程</font></h4><ul>
 <li>每个正在运行的程序（即进程），至少包括一个线程，这个线程叫主线程</li>
 <li>主线程在程序启动时被创建，用于执行main函数</li>
 <li>只有一个主线程的程序，称作单线程程序</li>
@@ -702,202 +895,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux 中的相关命令</title>
-    <url>/2021/08/14/Linux/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="购买连接云服务器"><a href="#购买连接云服务器" class="headerlink" title="购买连接云服务器"></a><font color=orange>购买连接云服务器</font></h2><h3 id="购买平台"><a href="#购买平台" class="headerlink" title="购买平台"></a><font color=skyblue>购买平台</font></h3><ul>
-<li><a class="btn-beautify button--animated green larger" href="https://cloud.tencent.com/" 
-  title="腾讯云"><i class="far fa-hand-point-right"></i><span>腾讯云</span></a></li>
-<li><a class="btn-beautify button--animated green larger" href="https://www.aliyun.com/" 
-  title="阿里云"><i class="far fa-hand-point-right"></i><span>阿里云</span></a></li>
-</ul>
-<h3 id="Linux-系统"><a href="#Linux-系统" class="headerlink" title="Linux 系统"></a><font color=skyblue>Linux 系统</font></h3><ul>
-<li><code>centos</code></li>
-<li><code>redhat</code></li>
-</ul>
-<hr />
-
-<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a><font color=orange>操作命令</font></h2><ul>
-<li>建立链接：<code>ssh 用户名@ip地址</code></li>
-<li>查看文件位置：<code>pwd</code></li>
-<li>查看当前目录下的文件和文件夹：<code>ll</code><ul>
-<li>区分文件和文件夹：看首字母<ul>
-<li><code>d</code>: 文件夹</li>
-<li><code>l</code>: 软链接</li>
-<li><code>~</code>：文件</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>创建文件夹：<code>mkdir 目录名</code></li>
-<li>创建文件：<code>touch 文件名</code></li>
-<li>删除文件/文件夹：<ul>
-<li><code>rm -rf 文件/文件夹</code></li>
-<li><code>rm -rf /* 不要使用</code></li>
-<li><code>rm -rf * 也不要使用</code></li>
-</ul>
-</li>
-<li>查看文件内容：<code>cat 文件</code></li>
-<li>编辑文件：<code>vi 文件</code><ul>
-<li>三种模式<ul>
-<li>一般模式：使用 <code>vi</code> 命令回车之后默认进入的就是一般模式（删除指令模式中的:）<ul>
-<li>特点：不能编辑文件内容，只能通过一些快捷键去操作文件内容</li>
-<li><code>dd</code>: 删除一行数据</li>
-<li><code>yy</code>: 赋值一行数据</li>
-<li><code>p</code>: 粘贴一行数据</li>
-<li><code>u</code>: 撤销操作</li>
-</ul>
-</li>
-<li>编辑模式：自由编辑<ul>
-<li>如何进入<ul>
-<li>在一般模式下按 <code>a</code> || <code>A</code> || <code>i</code> || <code>I</code> || <code>o</code> || <code>O</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>指令模式：只能从一般模式进入<ul>
-<li><code>:q</code>：退出</li>
-<li><code>:w</code>：保存</li>
-<li><code>:wq</code>：保存退出</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Linux 上文件安装<ul>
-<li>压缩包安装：<code>.tar.gz</code>, <code>.tar.xz</code><ul>
-<li><code>.tar.gz</code>: <code>tar -zxvf xxx.tar.gz -C 解压的路径</code></li>
-<li><code>.tar.xz</code>: <code>tar -xvf xxx.tar.xz -C 解压的路径</code></li>
-</ul>
-</li>
-<li>使用安装包安装：<code>.rpm</code><ul>
-<li>查看包<ul>
-<li><code>rpm -qa | grep mysql</code></li>
-</ul>
-</li>
-<li>安装包<ul>
-<li><code>rpm -ivh 包名</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>使用软件商店安装: <code>yum</code><ul>
-<li><code>yum install -y 软件名</code></li>
-<li><code>yum update 软件名</code></li>
-<li><code>yum remove 软件名</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Windows上复制一个文件到Linux服务器<ul>
-<li><code>scp -r 本地需要上传的文件路径 root@192.168.100.80:/opt</code></li>
-</ul>
-</li>
-<li>配置环境变量 vim /etc/profile<ul>
-<li>进入文件之后光标移动到最后一行 按<code>o</code>开始配置 <code>export PATH=$PATH</code></li>
-<li>环境变量配置完成之后需要执行如下命令把配置文件进行加载</li>
-</ul>
-</li>
-</ul>
-<hr />
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开发中常用的网站</title>
-    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
-
-<table>
-<thead>
-<tr>
-<th align="center"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
-<th align="center"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
-<td align="center"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
-<td align="center"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.bootcss.com/">Bootstrap</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.gulpjs.com.cn/">Gulp</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.npmjs.com/">npm</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://axios-http.com/zh/docs/intro">Axios</a></strong></em></td>
-<td align="center"><em><strong><a href="https://flexbox.malven.co/">CSS Flex</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.caniuse.com/">caniuse</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
-<td align="center"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
-<td align="center"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
-<td align="center"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
-<td align="center"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.w3cplus.com/">W3cplus</a></strong></em></td>
-<td align="center"><em><strong><a href="https://es6.ruanyifeng.com/">ES6阮一峰</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
-</tr>
-</tbody></table>
-<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
-<thead>
-<tr>
-<th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
-<td align="center"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.djangoproject.com/">Django</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.koajs.com.cn/">Koa中文教程</a></strong></em></td>
-<td align="center"><em><strong><a href="https://eggjs.org/zh-cn/">Egg中文</a></strong></em></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>site</category>
-      </categories>
-      <tags>
-        <tag>常用网站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>重绘和回流</title>
     <url>/2021/08/21/%E9%87%8D%E7%BB%98%E5%92%8C%E5%9B%9E%E6%B5%81/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="重绘"><a href="#重绘" class="headerlink" title="重绘"></a>重绘</h2><blockquote>
+    <content><![CDATA[<h2 id="重绘"><a href="#重绘" class="headerlink" title="重绘"></a>重绘</h2><blockquote>
 <p>当页面中的一些元素需要更新属性，而这些属性只是影响元素的外观，风格，而不会影响布局的时候，比如background-color。则称为重绘。</p>
 </blockquote>
 <h2 id="回流"><a href="#回流" class="headerlink" title="回流"></a>回流</h2><blockquote>
