@@ -474,199 +474,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux 中的相关命令</title>
-    <url>/2021/08/14/Linux/</url>
-    <content><![CDATA[<h2 id="购买连接云服务器"><a href="#购买连接云服务器" class="headerlink" title="购买连接云服务器"></a><font color=orange>购买连接云服务器</font></h2><h3 id="购买平台"><a href="#购买平台" class="headerlink" title="购买平台"></a><font color=skyblue>购买平台</font></h3><ul>
-<li><a class="btn-beautify button--animated green larger" href="https://cloud.tencent.com/" 
-  title="腾讯云"><i class="far fa-hand-point-right"></i><span>腾讯云</span></a></li>
-<li><a class="btn-beautify button--animated green larger" href="https://www.aliyun.com/" 
-  title="阿里云"><i class="far fa-hand-point-right"></i><span>阿里云</span></a></li>
-</ul>
-<h3 id="Linux-系统"><a href="#Linux-系统" class="headerlink" title="Linux 系统"></a><font color=skyblue>Linux 系统</font></h3><ul>
-<li><code>centos</code></li>
-<li><code>redhat</code></li>
-</ul>
-<hr />
-
-<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a><font color=orange>操作命令</font></h2><ul>
-<li>建立链接：<code>ssh 用户名@ip地址</code></li>
-<li>查看文件位置：<code>pwd</code></li>
-<li>查看当前目录下的文件和文件夹：<code>ll</code><ul>
-<li>区分文件和文件夹：看首字母<ul>
-<li><code>d</code>: 文件夹</li>
-<li><code>l</code>: 软链接</li>
-<li><code>~</code>：文件</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>创建文件夹：<code>mkdir 目录名</code></li>
-<li>创建文件：<code>touch 文件名</code></li>
-<li>删除文件/文件夹：<ul>
-<li><code>rm -rf 文件/文件夹</code></li>
-<li><code>rm -rf /* 不要使用</code></li>
-<li><code>rm -rf * 也不要使用</code></li>
-</ul>
-</li>
-<li>查看文件内容：<code>cat 文件</code></li>
-<li>编辑文件：<code>vi 文件</code><ul>
-<li>三种模式<ul>
-<li>一般模式：使用 <code>vi</code> 命令回车之后默认进入的就是一般模式（删除指令模式中的:）<ul>
-<li>特点：不能编辑文件内容，只能通过一些快捷键去操作文件内容</li>
-<li><code>dd</code>: 删除一行数据</li>
-<li><code>yy</code>: 赋值一行数据</li>
-<li><code>p</code>: 粘贴一行数据</li>
-<li><code>u</code>: 撤销操作</li>
-</ul>
-</li>
-<li>编辑模式：自由编辑<ul>
-<li>如何进入<ul>
-<li>在一般模式下按 <code>a</code> || <code>A</code> || <code>i</code> || <code>I</code> || <code>o</code> || <code>O</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>指令模式：只能从一般模式进入<ul>
-<li><code>:q</code>：退出</li>
-<li><code>:w</code>：保存</li>
-<li><code>:wq</code>：保存退出</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Linux 上文件安装<ul>
-<li>压缩包安装：<code>.tar.gz</code>, <code>.tar.xz</code><ul>
-<li><code>.tar.gz</code>: <code>tar -zxvf xxx.tar.gz -C 解压的路径</code></li>
-<li><code>.tar.xz</code>: <code>tar -xvf xxx.tar.xz -C 解压的路径</code></li>
-</ul>
-</li>
-<li>使用安装包安装：<code>.rpm</code><ul>
-<li>查看包<ul>
-<li><code>rpm -qa | grep mysql</code></li>
-</ul>
-</li>
-<li>安装包<ul>
-<li><code>rpm -ivh 包名</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>使用软件商店安装: <code>yum</code><ul>
-<li><code>yum install -y 软件名</code></li>
-<li><code>yum update 软件名</code></li>
-<li><code>yum remove 软件名</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Windows上复制一个文件到Linux服务器<ul>
-<li><code>scp -r 本地需要上传的文件路径 root@192.168.100.80:/opt</code></li>
-</ul>
-</li>
-<li>配置环境变量 vim /etc/profile<ul>
-<li>进入文件之后光标移动到最后一行 按<code>o</code>开始配置 <code>export PATH=$PATH</code></li>
-<li>环境变量配置完成之后需要执行如下命令把配置文件进行加载</li>
-</ul>
-</li>
-</ul>
-<hr />
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开发中常用的网站</title>
-    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
-
-<table>
-<thead>
-<tr>
-<th align="center"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
-<th align="center"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
-<td align="center"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
-<td align="center"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.bootcss.com/">Bootstrap</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.gulpjs.com.cn/">Gulp</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.npmjs.com/">npm</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://axios-http.com/zh/docs/intro">Axios</a></strong></em></td>
-<td align="center"><em><strong><a href="https://flexbox.malven.co/">CSS Flex</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.caniuse.com/">caniuse</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
-<td align="center"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
-<td align="center"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
-<td align="center"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
-<td align="center"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.w3cplus.com/">W3cplus</a></strong></em></td>
-<td align="center"><em><strong><a href="https://es6.ruanyifeng.com/">ES6阮一峰</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
-</tr>
-</tbody></table>
-<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
-<thead>
-<tr>
-<th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
-<th align="center"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
-<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
-<td align="center"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
-</tr>
-<tr>
-<td align="center"><em><strong><a href="https://www.djangoproject.com/">Django</a></strong></em></td>
-<td align="center"><em><strong><a href="https://www.koajs.com.cn/">Koa中文教程</a></strong></em></td>
-<td align="center"><em><strong><a href="https://eggjs.org/zh-cn/">Egg中文</a></strong></em></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>site</category>
-      </categories>
-      <tags>
-        <tag>常用网站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>浅谈 JS 中的事件循环机制</title>
     <url>/2021/08/15/JS/</url>
     <content><![CDATA[<h2 id="预备知识"><a href="#预备知识" class="headerlink" title="预备知识"></a><font color=orange>预备知识</font></h2><h3 id="单线程与多线程"><a href="#单线程与多线程" class="headerlink" title="单线程与多线程"></a><font color=skyblue>单线程与多线程</font></h3><h4 id="单线程"><a href="#单线程" class="headerlink" title="单线程"></a><font color=Fuchsia>单线程</font></h4><ul>
@@ -893,6 +700,199 @@
       </categories>
       <tags>
         <tag>JS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux 中的相关命令</title>
+    <url>/2021/08/14/Linux/</url>
+    <content><![CDATA[<h2 id="购买连接云服务器"><a href="#购买连接云服务器" class="headerlink" title="购买连接云服务器"></a><font color=orange>购买连接云服务器</font></h2><h3 id="购买平台"><a href="#购买平台" class="headerlink" title="购买平台"></a><font color=skyblue>购买平台</font></h3><ul>
+<li><a class="btn-beautify button--animated green larger" href="https://cloud.tencent.com/" 
+  title="腾讯云"><i class="far fa-hand-point-right"></i><span>腾讯云</span></a></li>
+<li><a class="btn-beautify button--animated green larger" href="https://www.aliyun.com/" 
+  title="阿里云"><i class="far fa-hand-point-right"></i><span>阿里云</span></a></li>
+</ul>
+<h3 id="Linux-系统"><a href="#Linux-系统" class="headerlink" title="Linux 系统"></a><font color=skyblue>Linux 系统</font></h3><ul>
+<li><code>centos</code></li>
+<li><code>redhat</code></li>
+</ul>
+<hr />
+
+<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a><font color=orange>操作命令</font></h2><ul>
+<li>建立链接：<code>ssh 用户名@ip地址</code></li>
+<li>查看文件位置：<code>pwd</code></li>
+<li>查看当前目录下的文件和文件夹：<code>ll</code><ul>
+<li>区分文件和文件夹：看首字母<ul>
+<li><code>d</code>: 文件夹</li>
+<li><code>l</code>: 软链接</li>
+<li><code>~</code>：文件</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>创建文件夹：<code>mkdir 目录名</code></li>
+<li>创建文件：<code>touch 文件名</code></li>
+<li>删除文件/文件夹：<ul>
+<li><code>rm -rf 文件/文件夹</code></li>
+<li><code>rm -rf /* 不要使用</code></li>
+<li><code>rm -rf * 也不要使用</code></li>
+</ul>
+</li>
+<li>查看文件内容：<code>cat 文件</code></li>
+<li>编辑文件：<code>vi 文件</code><ul>
+<li>三种模式<ul>
+<li>一般模式：使用 <code>vi</code> 命令回车之后默认进入的就是一般模式（删除指令模式中的:）<ul>
+<li>特点：不能编辑文件内容，只能通过一些快捷键去操作文件内容</li>
+<li><code>dd</code>: 删除一行数据</li>
+<li><code>yy</code>: 赋值一行数据</li>
+<li><code>p</code>: 粘贴一行数据</li>
+<li><code>u</code>: 撤销操作</li>
+</ul>
+</li>
+<li>编辑模式：自由编辑<ul>
+<li>如何进入<ul>
+<li>在一般模式下按 <code>a</code> || <code>A</code> || <code>i</code> || <code>I</code> || <code>o</code> || <code>O</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>指令模式：只能从一般模式进入<ul>
+<li><code>:q</code>：退出</li>
+<li><code>:w</code>：保存</li>
+<li><code>:wq</code>：保存退出</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Linux 上文件安装<ul>
+<li>压缩包安装：<code>.tar.gz</code>, <code>.tar.xz</code><ul>
+<li><code>.tar.gz</code>: <code>tar -zxvf xxx.tar.gz -C 解压的路径</code></li>
+<li><code>.tar.xz</code>: <code>tar -xvf xxx.tar.xz -C 解压的路径</code></li>
+</ul>
+</li>
+<li>使用安装包安装：<code>.rpm</code><ul>
+<li>查看包<ul>
+<li><code>rpm -qa | grep mysql</code></li>
+</ul>
+</li>
+<li>安装包<ul>
+<li><code>rpm -ivh 包名</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>使用软件商店安装: <code>yum</code><ul>
+<li><code>yum install -y 软件名</code></li>
+<li><code>yum update 软件名</code></li>
+<li><code>yum remove 软件名</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Windows上复制一个文件到Linux服务器<ul>
+<li><code>scp -r 本地需要上传的文件路径 root@192.168.100.80:/opt</code></li>
+</ul>
+</li>
+<li>配置环境变量 vim /etc/profile<ul>
+<li>进入文件之后光标移动到最后一行 按<code>o</code>开始配置 <code>export PATH=$PATH</code></li>
+<li>环境变量配置完成之后需要执行如下命令把配置文件进行加载</li>
+</ul>
+</li>
+</ul>
+<hr />
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开发中常用的网站</title>
+    <url>/2021/08/12/%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a><font color=orange>前端开发</font></h2><span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th align="center"><em><strong><a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a></strong></em></th>
+<th align="center"><em><strong><a href="https://element.eleme.cn/#/zh-CN">Element UI中文</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.bootcdn.cn/">BootCDN中文</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><em><strong><a href="https://cn.vuejs.org/index.html">Vue2</a></strong></em></td>
+<td align="center"><em><strong><a href="https://v3.cn.vuejs.org/">Vue3</a></strong></em></td>
+<td align="center"><em><strong><a href="https://element-plus.gitee.io/#/zh-CN">Element Plus</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.bootcss.com/">Bootstrap</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.gulpjs.com.cn/">Gulp</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.npmjs.com/">npm</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://axios-http.com/zh/docs/intro">Axios</a></strong></em></td>
+<td align="center"><em><strong><a href="https://flexbox.malven.co/">CSS Flex</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.caniuse.com/">caniuse</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://less.bootcss.com/">Less中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.sass.hk/">Sass中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://echarts.apache.org/zh/index.html">ECharts中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.layui.com/">Layui</a></strong></em></td>
+<td align="center"><em><strong><a href="https://vant-contrib.gitee.io/vant/#/zh-CN/">Vant中文</a></strong></em></td>
+<td align="center"><em><strong><a href="https://ant.design/index-cn">Ant Design中文</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://nutui.jd.com/#/index">NutUI</a></strong></em></td>
+<td align="center"><em><strong><a href="https://jquery.cuishifeng.cn/">jQuery</a></strong></em></td>
+<td align="center"><em><strong><a href="https://promisesaplus.com/">promises/A+</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://zh-hans.reactjs.org/">React中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://reactrouter.com/web/guides/quick-start">React Router</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.wangeditor.com/">wangEditor</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.tslang.cn/">TS中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://webpack.docschina.org/">Webpack中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.babeljs.cn/docs/">Babel中文网</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.w3cplus.com/">W3cplus</a></strong></em></td>
+<td align="center"><em><strong><a href="https://es6.ruanyifeng.com/">ES6阮一峰</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.zhangxinxu.com/">张鑫旭的个人主页</a></strong></em></td>
+</tr>
+</tbody></table>
+<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a><font color=orange>后端开发</font></h2><table>
+<thead>
+<tr>
+<th align="center"><em><strong><a href="https://www.liaoxuefeng.com/">廖雪峰官方网站</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.php.cn/">PHP中文网</a></strong></em></th>
+<th align="center"><em><strong><a href="https://www.expressjs.com.cn/">Express中文网</a></strong></em></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">nodejs中文网</a></strong></em></td>
+<td align="center"><em><strong><a href="https://nodejs.org/zh-cn/">MongoDB中文教程</a></strong></em></td>
+<td align="center"><em><strong><a href="https://man.linuxde.net/">Linux命令大全</a></strong></em></td>
+</tr>
+<tr>
+<td align="center"><em><strong><a href="https://www.djangoproject.com/">Django</a></strong></em></td>
+<td align="center"><em><strong><a href="https://www.koajs.com.cn/">Koa中文教程</a></strong></em></td>
+<td align="center"><em><strong><a href="https://eggjs.org/zh-cn/">Egg中文</a></strong></em></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>site</category>
+      </categories>
+      <tags>
+        <tag>常用网站</tag>
       </tags>
   </entry>
   <entry>
